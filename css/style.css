@@ -50,6 +50,12 @@ h1 {
     margin: 16px;
 }
 
+h2 {
+    font-family:"SecularOne";
+    font-size: 40px;
+    font-weight: regular;
+    margin: 16px;
+}
 .form {
     border-color: black;
     margin: 16px;
@@ -63,6 +69,7 @@ h1 {
 
 
 .img{
+    display: inline-block;
     margin: 0%;
 }
 
@@ -70,10 +77,13 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     font-style: italic;
-    font-display: center;
+    font-display: auto;
     padding: 400px;
     padding-top: 200px;
     padding-bottom: 200px;
 
 }
 
+footer {
+    display: inline-block;
+}
