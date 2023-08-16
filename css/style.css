@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color:rgb(244, 231, 212);
+    background-color:rgb(255, 215, 222);
 }
 
 header {
@@ -30,8 +30,8 @@ nav ul li {
     display: inline-block;
     font-family:"SecularOne";
     font-size: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -45,17 +45,17 @@ nav ul li a {
 
 h1 {
     font-family:"SecularOne";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: regular;
-    margin: 16px;
 }
 
 h2 {
     font-family:"SecularOne";
     font-size: 40px;
     font-weight: regular;
-    margin: 16px;
+    padding-left: 16px;
 }
+
 .form {
     border-color: black;
     margin: 16px;
@@ -70,15 +70,18 @@ h2 {
 
 .img{
     display: inline-block;
-    margin: 0%;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+
 }
 
 .para {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     font-display: auto;
-    padding: 200px 400px;
+    padding: 120px 400px;
 }
 
 footer {
