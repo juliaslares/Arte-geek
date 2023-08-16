@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(255, 215, 223);
+}
+
+header {
+    margin: 20px;
+    background-color: none;
+    position: sticky;
+}
+
+@font-face {
+    font-family: "SecularOne";
+    src: url(fonts/SecularOne-Regular.ttf);
+}
+
+.li {
+    font-family:  "SecularOne";
+    font-size: 30px;
+    color: rgb(241, 70, 88) ;
+    margin-right: 5%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family:"SecularOne";
+    font-size: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(241, 70, 88) ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;  
+    color: rgb(241, 70, 88) ; 
+}
+
+
+h1 {
+    font-family:"SecularOne";
+    font-size: 25px;
+    font-weight: regular;
+    color: rgb(241, 70, 88) ;
+    margin-left: 10%;
+}
+
+h2 {
+    font-family:"SecularOne";
+    font-size: 40px;
+    font-weight: regular;
+    padding: 5%;
+    color: rgb(241, 70, 88);
+}
+
+.form {
+    border-color: rgb(241, 70, 88) ;
+    margin: 16px;
+    padding:  10px;
+}
+
+.legend{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(241, 70, 88)
+}
+
+
+img{
+    align-self: center;
+    width: 100%
+}
+
+.para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: italic;
+    font-display: auto;
+    padding: 120px 400px;
+    color: rgb(241, 70, 88) ;
+}
+
+footer {
+    display: inline;
+}
