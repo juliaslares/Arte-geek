@@ -20,6 +20,8 @@ header {
     font-size: 30px;
     color: rgb(241, 70, 88) ;
     margin-right: 5%;
+    color: rgb(241, 70, 88) ;
+    margin-right: 5%;
 }
 
 nav ul {
@@ -33,6 +35,9 @@ nav ul li {
     margin-left: 2%;
     margin-right: 2%;
     color: rgb(241, 70, 88) ;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(241, 70, 88) ;
 }
 
 nav ul li a {
@@ -40,6 +45,8 @@ nav ul li a {
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
+    font-size: 20px;  
+    color: rgb(241, 70, 88) ; 
     font-size: 20px;  
     color: rgb(241, 70, 88) ; 
 }
@@ -55,8 +62,18 @@ h1 {
 
 h2 {
     font-family:"SecularOne";
+    font-size: 25px;
+    font-weight: regular;
+    color: rgb(241, 70, 88) ;
+    margin-left: 10%;
+}
+
+h2 {
+    font-family:"SecularOne";
     font-size: 40px;
     font-weight: regular;
+    padding: 5%;
+    color: rgb(241, 70, 88);
     padding: 5%;
     color: rgb(241, 70, 88);
 }
@@ -88,6 +105,9 @@ img{
     color: rgb(241, 70, 88) ;
 }
 
+footer {
+    display: inline;
+}
 footer {
     display: inline;
 }
