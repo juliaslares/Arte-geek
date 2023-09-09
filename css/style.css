@@ -16,17 +16,6 @@ header {
 }
 
 
-.li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    color: rgb(241, 70, 88) ;
-    margin-right: 5%;
-    color: rgb(241, 70, 88) ;
-    margin-right: 5%;
-}
-
-
 nav ul li {
     display: inline-block;    
     font-size: 25px;
@@ -45,6 +34,17 @@ nav ul li a {
     font-size: 20px;  
     color: rgb(241, 70, 88) ; 
 }
+
+.li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(241, 70, 88) ;
+    margin-right: 5%;
+    color: rgb(241, 70, 88) ;
+    margin-right: 5%;
+}
+
 
 
 h1 {
