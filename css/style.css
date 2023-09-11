@@ -37,7 +37,7 @@ nav ul li a {
 
 .li {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 30px;
     color: rgb(241, 70, 88) ;
     margin-right: 5%;
@@ -60,21 +60,39 @@ h2 {
     font-size: 40px;
     text-align: center;
     font-weight: regular;
-    padding: 5%;
+    padding-top: 6%;
+    padding-bottom: 4%;
     color: rgb(241, 70, 88);
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
-    font-weight: regular;
-    padding: 5%;
-    color: rgb(241, 70, 88);
-    padding: 5%;
+    font-weight: 800;
+    padding-top: 2%;
+    font-style: regular;
     color: rgb(241, 70, 88);
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 2%;
+    color: rgb(241, 70, 88);
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: regular;
+    padding-top: 6%;
+    color: rgb(241, 70, 88);
+}
 
 
 .form {
@@ -93,6 +111,22 @@ h3 {
 img{
     align-self: center;
     width: 100%
+}
+
+.Imagen {
+ padding: 5px;
+ width: 580px;
+ height: 870px;
+}
+
+.Imagen2 {
+    padding: 5px;
+    width: 580px;
+    height: 870px;
+}
+
+.conoceNP {
+    display: inline-block;
 }
 
 .para {
@@ -117,10 +151,12 @@ img{
 
 
 .contacto {
-    display: inline-block;
+    border-top: solid 1px rgb(241, 70, 88);
+    border-bottom: solid 1px rgb(241, 70, 88);
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    padding: 5%;
+    font-size: 12px;
+    padding-bottom: 2%;
+    text-align: center;
     color: rgb(241, 70, 88) ;
+    width: 100%;
 }
