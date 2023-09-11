@@ -1,6 +1,6 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     background-color:rgb(255, 215, 223);
 }
 
@@ -57,18 +57,9 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: regular;
-    color: rgb(241, 70, 88) ;
-    margin-left: 10%;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
+    text-align: center;
     font-weight: regular;
-    padding: 5%;
-    color: rgb(241, 70, 88);
     padding: 5%;
     color: rgb(241, 70, 88);
 }
@@ -105,20 +96,38 @@ img{
 
 .para {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
+    text-align: center;
     font-style: italic;
     font-display: auto;
     padding: 120px 400px;
     color: rgb(241, 70, 88) ;
 }
 
-
+.público{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-display: auto;
+    font-weight: 400;
+    padding: 0px 200px;
+    color: rgb(241, 70, 88) ;
+}
 
 footer {
-    display: inline;
+    background-color: bisque;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+
+.contacto {
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: italic;
     color: rgb(241, 70, 88) ;
+    padding: 16%;
 }
 
