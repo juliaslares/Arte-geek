@@ -127,13 +127,14 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 12%;
       
 }
 
 .Imagen {
- padding: 15px;
- width: 580px;
- height: 870px;
+ padding: 5px;
+
 }
 
 .Contenedor-ropa {
@@ -158,9 +159,6 @@ img{
     color: rgb(241, 70, 88) ;
 }
 
-.conoceNP {
-    display: inline-block;
-}
 
 .para {
     font-family: 'Montserrat', sans-serif;
