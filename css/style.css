@@ -43,8 +43,6 @@ nav ul li a {
     font-size: 18px; 
     color: rgb(241, 70, 88) ;
 
- }
-
 .li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -121,20 +119,16 @@ img{
     width: 100%
 }
 
-
-
 .conoceNP {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
-    padding-bottom: 12%;
-      
+    padding-bottom: 12%;      
 }
 
 .Imagen {
  padding: 5px;
-
 }
 
 .Contenedor-ropa {
@@ -156,8 +150,8 @@ img{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px ;
-    color: rgb(241, 70, 88) ;
-}
+  color: rgb(241, 70, 88) ; 
+  }
 
 
 .para {
