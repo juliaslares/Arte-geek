@@ -4,10 +4,21 @@
     background-color:rgb(249, 237, 239);
 }
 
+.cuotas {
+    background-color: rgb(241, 70, 88);
+    color: rgb(249, 237, 239);
+    font-size: 12px;
+    padding: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 header {
     margin: 20px;
     background-color: none;
     position: sticky;
+    text-align: center;
 }
 
 @font-face {
@@ -17,34 +28,22 @@ header {
 
 
 nav ul li {
-    display: inline-block; 
+    display: inline-flex; 
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 25px;
     margin-left: 2%;
     margin-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+
 }
 
 nav ul li a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 16px;  
-    color: rgb(241, 70, 88) ; 
-    font-size: 20px;  
+    font-size: 18px;  
     color: rgb(241, 70, 88) ; 
 }
-
-.li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    color: rgb(241, 70, 88) ;
-    margin-right: 5%;
-    color: rgb(241, 70, 88) ;
-    margin-right: 5%;
-}
-
 
 
 h1 {
@@ -60,7 +59,7 @@ h2 {
     font-size: 40px;
     text-align: center;
     font-weight: regular;
-    padding-top: 6%;
+    padding-top: 5%;
     padding-bottom: 4%;
     color: rgb(241, 70, 88);
 }
@@ -113,21 +112,42 @@ img{
     width: 100%
 }
 
+
+.conoceNP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      
+}
+
 .Imagen {
- padding: 5px;
+ padding: 15px;
  width: 580px;
  height: 870px;
 }
 
-.Imagen2 {
-    padding: 5px;
-    width: 580px;
-    height: 870px;
+.Contenedor-ropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.conoceNP {
-    display: inline-block;
+.item-ropa {
+ width: 122px;
+ height: 240px;
+ padding: 5%;
 }
+
+.item-precio {
+    width: 122px;
+    height: 240px;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+    color: rgb(241, 70, 88) ;
+}
+
 
 .para {
     font-family: 'Montserrat', sans-serif;
@@ -139,13 +159,22 @@ img{
     color: rgb(241, 70, 88) ;
 }
 
+.quienes-somos{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 .público{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: left;
     font-display: auto;
     font-weight: 400;
-    padding: 0px 200px;
+    width: 500px;
+    height: 240px;
+    padding: 5%;
     color: rgb(241, 70, 88) ;
 }
 
