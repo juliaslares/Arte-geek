@@ -49,7 +49,6 @@ nav ul li a {
     font-weight: 800;
     font-size: 30px;
     color: rgb(241, 70, 88) ;
-    margin-right: 5%;
 }
 
 
@@ -115,7 +114,7 @@ h5 {
 }
 
 
-img{
+img {
     align-self: center;
     width: 100%
 }

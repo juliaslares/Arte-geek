@@ -1,2 +1,2 @@
 let saludo = "buen día"
-alert ("saludo")
+alert ("Bienvenidx a Arte-Geek")
