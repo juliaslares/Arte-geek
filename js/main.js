@@ -1,3 +1,4 @@
+
 let nombre = prompt("Ingresa tu nombre");
 if(nombre == ''){
     alert('No ingresaste tu nombre')
@@ -31,3 +32,4 @@ formulario.addEventListener('submit', function(event){
 const form = document.getElementById('formulario.php');
 let Nombre = form.elements['nombreyapellido'];
 let email = form.elements['correo'];
+
