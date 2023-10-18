@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Arte Geek, para artesanos y comerciantes</title>
   <link rel="stylesheet" href="../css/style.css">
-
+  
+  <script src="js/main.js"></script>
+  
 </head>
 
   <body>
@@ -28,7 +30,7 @@
 
     <h2>Contactanos</h2>
          
-          
+          <div id="formulario">
         <form action="formulario.php" method="post" enctype="multipart/form-data">
         <fieldset  class="form">
             <legend class="legend">Completa nuestro formulario para contactarnos</legend>
@@ -37,6 +39,10 @@
     
          <label for="nombreyapellido">Ingresa tu nombre y apellido</label>
             <input type="text" name="nombreyapellido" id="nombreyapellido">
+            <div class="error">
+              <ul></ul>
+             </div>
+             
     
         <br><br>
     
@@ -73,6 +79,7 @@
             </fieldset>
             
           </form>
+        </div>
     
         <br>
         <br>
