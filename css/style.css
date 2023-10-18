@@ -1,3 +1,200 @@
+
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(249, 237, 239);
+}
+
+.cuotas {
+    background-color: rgb(241, 70, 88);
+    color: rgb(249, 237, 239);
+    font-size: 12px;
+    padding: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    margin: 20px;
+    background-color: none;
+    position: sticky;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "SecularOne";
+    src: url(fonts/SecularOne-Regular.ttf);
+}
+
+
+nav ul li {
+    display: inline-flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px; 
+    color: rgb(241, 70, 88) ;
+ }
+
+
+.li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(241, 70, 88) ;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: regular;
+    color: rgb(241, 70, 88) ;
+    margin-left: 10%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: regular;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    color: rgb(241, 70, 88);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 2%;
+    font-style: regular;
+    color: rgb(241, 70, 88);
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 2%;
+    color: rgb(241, 70, 88);
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: regular;
+    padding-top: 6%;
+    color: rgb(241, 70, 88);
+}
+
+
+.form {
+    border-color: rgb(241, 70, 88) ;
+    margin: 16px;
+    padding:  10px;
+}
+
+.legend{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(241, 70, 88)
+}
+
+
+img {
+    align-self: center;
+    width: 100%
+}
+
+.conoceNP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 12%;      
+}
+
+.Imagen {
+ padding: 5px;
+}
+
+.Contenedor-ropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item-ropa {
+ width: 122px;
+ height: 240px;
+ padding: 5%;
+}
+
+.item-precio {
+    width: 122px;
+    height: 240px;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+  color: rgb(241, 70, 88) ; 
+  }
+
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    font-display: auto;
+    padding: 120px 400px;
+    color: rgb(241, 70, 88) ;
+}
+
+
+.quienes-somos{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.público{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-display: auto;
+    font-weight: 400;
+    width: 500px;
+    height: 240px;
+    padding: 5%;
+    color: rgb(241, 70, 88) ;
+}
+
+.contacto {
+    border-top: solid 1px rgb(241, 70, 88);
+    border-bottom: solid 1px rgb(241, 70, 88);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding-bottom: 2%;
+    text-align: center;
+    color: rgb(241, 70, 88) ;
+    width: 100%;
+}
+=======
 *{
     margin: 0;
     padding: 0;
@@ -193,3 +390,4 @@ img {
     color: rgb(241, 70, 88) ;
     width: 100%;
 }
+
