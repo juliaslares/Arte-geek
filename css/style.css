@@ -340,18 +340,19 @@ img {
     width: 55%;
     vertical-align: top;
     text-align: justify;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 20%;
 }
 
 .noticiasL{
-    padding-left: 20%;
+    padding-left: 13%;
+    width: 100%;
    
 }
 
-.noticias2{
-    padding-right: 20%;
-   
+.noticiasR{
+    padding-right: 23%;
+    width: 100%;
 }
 
 .bellow {
