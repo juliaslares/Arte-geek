@@ -11,10 +11,10 @@ let lugar = prompt("Ingresa el país donde vivís");
 let color = prompt("Cuél es tu color preferido?");
 
 
+const form = document.getElementById('formulario');
+let formulario= document.getElementById('formulario');
 
-let formulario= document.getElementById('formulario.php');
-
-document.getElementById("nombreyapellido").value = "";
+document.getElementById("nombreyapellido").value == "";
 document.getElementById("correo").value = "";
 
 formulario.addEventListener('submit', function(event){
@@ -29,7 +29,7 @@ formulario.addEventListener('submit', function(event){
    });
    
 
-const form = document.getElementById('formulario.php');
+
 let Nombre = form.elements['nombreyapellido'];
 let email = form.elements['correo'];
 
