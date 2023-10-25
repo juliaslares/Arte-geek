@@ -1,16 +1,23 @@
 *{ 
     margin: 0; 
+*{ 
+    margin: 0; 
     padding: 0;
     background-color: white; 
+    background-color: white; 
 }
+
 
 
 .cuotas {
     background-color: rgb(0, 0, 0);
     color: white;
+    background-color: rgb(0, 0, 0);
+    color: white;
     font-size: 12px;
     padding: 13px;
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -30,33 +37,45 @@ nav ul li {
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 40px;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
     vertical-align: middle
 }
 
 nav ul li a {
     text-decoration: none;
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: normal;
     font-size: 18px; 
+    color: black ;
     color: black ;
  }
 
 .li {
     font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', monospace;
     font-weight: 800;
     font-size: 30px;
+    color: black ;
     color: black ;
 }
 
 h1 {
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 25px;
     font-weight: regular;
+    color: black ;
     color: black ;
     margin-left: 10%;
 }
 
 h2 {
+    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 40px;
     text-align: center;
@@ -64,15 +83,19 @@ h2 {
     padding-top: 5%;
 
     color: black ;
+
+    color: black ;
 }
 
 h3 {
+    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     text-align: center;
     font-weight: 800;
     padding-top: 2%;
     font-style: regular;
+    color: black ;
     color: black ;
 }
 
@@ -86,6 +109,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 40px;
     text-align: center;
@@ -105,6 +129,7 @@ h6 {
 
 .form {
     border-color: black ;
+    border-color: black ;
     margin: 16px;
     padding:  10px;
 }
@@ -112,6 +137,7 @@ h6 {
 .legend{
     font-size: 25px;
     text-align: center;
+    color: black ;
     color: black ;
 }
 
@@ -260,18 +286,22 @@ img {
     padding: 5%;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px ;
+    color: black ;
     color: black ;
   }
 
 
 .para {
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     text-align: center;
     font-style: italic;
     font-display: auto;
     padding: 120px 400px;
+    color: black ;
     color: black ;
 }
 
@@ -364,6 +394,7 @@ img {
 
 .público{
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     text-align: left;
     font-display: auto;
@@ -372,15 +403,21 @@ img {
     height: 240px;
     padding: 5%;
     color: black ;
+    color: black ;
 }
 
 .contacto {
     border-top: solid 1px black;
     border-bottom: solid 1px black;
     font-family: 'IBM Plex Mono', monospace;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
     padding-bottom: 2%;
     text-align: center;
+    color: black ;
+
     color: black ;
 
     width: 100%;
