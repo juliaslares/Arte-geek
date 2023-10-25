@@ -90,7 +90,8 @@ h5 {
     font-size: 40px;
     text-align: center;
     font-weight: regular;
-    padding-top: 6%;
+    padding-top: 3%;
+    padding-bottom: 5%;
     color: black ;
 }
 
@@ -117,7 +118,7 @@ h6 {
 
 img {
     align-self: center;
-    width: 100%
+    width: 100% ;
 }
 
 .conoceNP {
@@ -129,9 +130,19 @@ img {
     width: fit-content;    
 }
 
+.conoceNP2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 10%; 
+    width: fit-content;  
+}
+
 .Imagen {
-    width: 300px;
-    padding: 2%;
+    width: 240px;
+    margin: 25px;
+ 
 }
 
 .oferta-cont{ 
@@ -271,6 +282,84 @@ img {
     justify-content: center;
 }
 
+
+.aesthetic{
+    vertical-align: top;
+    display: inline-flex; 
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: nowrap;
+    padding-left: 5% ;
+}
+
+.aesthetic2{
+    vertical-align: top;
+    display: inline-flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-right: 5% ;
+}
+
+.fecha {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.noticia {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 12%;
+    padding-bottom:5%;
+}
+
+.noticia2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 12%;
+    padding-bottom:5%;
+}
+
+.noticias {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    padding-left: 5%;
+    width: 55%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.noticias2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    padding-right: 5%;
+    width: 55%;
+    vertical-align: top;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.noticiasL{
+    padding-left: 20%;
+   
+}
+
+.noticias2{
+    padding-right: 20%;
+   
+}
+
+.bellow {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
 
 .público{
     font-family: 'IBM Plex Mono', monospace;
