@@ -254,7 +254,6 @@ img {
     font-weight: 700;
     padding-left: 12%;
     padding-bottom:5%;
-}
 
 .noticia2 {
     font-family: 'IBM Plex Mono', monospace;
@@ -265,6 +264,7 @@ img {
 }
 
 .noticias {
+    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
@@ -323,3 +323,4 @@ img {
     color: black ;
     width: 100%;
 }
+
