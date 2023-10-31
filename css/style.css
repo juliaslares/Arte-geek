@@ -175,10 +175,6 @@ img {
     padding-top: 20px;
 }
 
-.Imagen {
- padding: 5px;
-}
-
 
 
 
@@ -226,7 +222,6 @@ img {
 .aesthetic{
     vertical-align: top;
     display: inline-flex; 
-    flex-direction: row;
     justify-content: left;
     flex-wrap: nowrap;
     padding-left: 5% ;
@@ -265,7 +260,6 @@ img {
 }
 
 .noticias {
-    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
