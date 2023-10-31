@@ -125,8 +125,8 @@ img {
 .conoceNP {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 2%; 
 
 }
@@ -135,7 +135,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-bottom: 10%; 
 
 }
@@ -269,7 +269,7 @@ img {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
-    width: 55%;
+    width: 30%;
     vertical-align: top;
     text-align: justify;
 }
@@ -278,7 +278,7 @@ img {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-right: 5%;
-    width: 55%;
+    width: 30%;
     vertical-align: top;
     text-align: justify;
     justify-content: flex-start;
@@ -300,7 +300,6 @@ img {
     display: flex; 
     flex-direction: column;
     justify-content: flex-end;
-    flex-wrap: wrap;
 }
 .público{
     font-family: 'IBM Plex Mono', monospace;
