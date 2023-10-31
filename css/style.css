@@ -125,19 +125,19 @@ img {
 .conoceNP {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: nowrap;
     padding-bottom: 2%; 
-    width: fit-content;    
+
 }
 
 .conoceNP2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     padding-bottom: 10%; 
-    width: fit-content;  
+
 }
 
 .Imagen {
@@ -173,6 +173,10 @@ img {
     text-align: center;
     font-weight: 700;
     padding-top: 20px;
+}
+
+.Imagen {
+ padding: 5px;
 }
 
 
@@ -222,6 +226,7 @@ img {
 .aesthetic{
     vertical-align: top;
     display: inline-flex; 
+    flex-direction: row;
     justify-content: left;
     flex-wrap: nowrap;
     padding-left: 5% ;
@@ -261,6 +266,7 @@ img {
 
 .noticias {
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
     width: 55%;
@@ -280,21 +286,21 @@ img {
 }
 
 .noticiasL{
-    padding-left: 13%;
-    width: 100%;
+    padding-left: 10%;
+    width: 40%;
    
 }
 
 .noticiasR{
-    padding-right: 23%;
-    width: 100%;
+    padding-right: 10%;
+    width: 40%;
 }
 
 .bellow {
     display: flex; 
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 .público{
     font-family: 'IBM Plex Mono', monospace;
