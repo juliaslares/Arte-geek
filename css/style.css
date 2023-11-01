@@ -122,10 +122,11 @@ img {
     width: 100% ;
 }
 
+/*catalogo*/
 .conoceNP {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 2%; 
 
@@ -204,13 +205,29 @@ img {
     color: black ;
 }
 
-
+/*sobrenosotres*/
 .quienes-somos{
     display: flex; 
     flex-direction: row;
     justify-content: center;
 }
 
+/*novedades*/
+
+.conoceNP2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 10%; 
+
+}
+
+.bellow {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
 
 .aesthetic{
     vertical-align: top;
@@ -226,6 +243,7 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     padding-right: 5% ;
+    justify-content: center;
 }
 
 .fecha {
@@ -255,7 +273,7 @@ img {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
-    width: 30%;
+    width: 50%;
     vertical-align: top;
     text-align: justify;
 }
@@ -264,29 +282,26 @@ img {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-right: 5%;
-    width: 30%;
+    width: 50%;
     vertical-align: top;
     text-align: justify;
-    justify-content: flex-start;
+    justify-content: right;
     margin-left: 20%;
 }
 
 .noticiasL{
     padding-left: 10%;
-    width: 40%;
+    width: 100%;
    
 }
 
 .noticiasR{
     padding-right: 10%;
-    width: 40%;
+    width: 140%;
 }
 
-.bellow {
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-end;
-}
+
+/*footer*/
 .público{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
@@ -310,3 +325,9 @@ img {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+   
+    .quienes-somos {
+        flex-direction: column;
+    }
+}
