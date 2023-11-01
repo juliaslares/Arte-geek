@@ -131,15 +131,6 @@ img {
 
 }
 
-.conoceNP2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding-bottom: 10%; 
-
-}
-
 .Imagen {
     width: 240px;
     margin: 25px;
@@ -178,8 +169,6 @@ img {
 .Imagen {
  padding: 5px;
 }
-
-
 
 
 .Contenedor-ropa {
@@ -227,7 +216,6 @@ img {
     vertical-align: top;
     display: inline-flex; 
     flex-direction: row;
-    justify-content: left;
     flex-wrap: nowrap;
     padding-left: 5% ;
 }
@@ -236,7 +224,6 @@ img {
     vertical-align: top;
     display: inline-flex; 
     flex-direction: row;
-    justify-content: center;
     flex-wrap: nowrap;
     padding-right: 5% ;
 }
@@ -265,7 +252,6 @@ img {
 }
 
 .noticias {
-    font-family: 'IBM Plex Mono', monospace;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     padding-left: 5%;
