@@ -43,12 +43,6 @@ nav ul li a {
     color: black ;
  }
 
-.li {
-    font-family:'IBM Plex Mono', monospace;
-    font-weight: 800;
-    font-size: 30px;
-    color: black ;
-}
 
 .hamburguesa {
     display: none;
